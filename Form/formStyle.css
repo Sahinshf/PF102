@@ -1,0 +1,56 @@
+/* Basic form container styling */
+.form-container {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+/* Form header */
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Labels and inputs styling */
+label {
+  margin-top: 10px;
+  color: #555;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  height: 35px;
+}
+
+.inputFields {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  height: 35px;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
