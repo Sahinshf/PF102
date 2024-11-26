@@ -1,17 +1,21 @@
+// 1) 18 yaşından olanları girişinə icazə verin.
+
 // let name = prompt("Adınızı daxil edin:");
 // let age = prompt("Yaşınızı daxil edin:");
 
 // if (age * 1 == age) {
 //   if (age > 18) {
 //     alert(
-//       `Salam ${name}, 18-dən çox yaşınız olduğu üçün puba daxil ola bilərsiz.`
+//       `Salam ${name}, 18-dən çox yaşınız olduğu üçün  daxil ola bilərsiz.`
 //     );
 //   } else {
-//     alert(`Bağışlayın ${name}, puba daxil ola bilməzsiniz.`);
+//     alert(`Bağışlayın ${name},  daxil ola bilməzsiniz.`);
 //   }
 // } else {
 //   alert("Zəhmət olmasa yaşınızı düzgün daxil edin (rəqəmlə).");
 // }
+
+// 2) Doğum tarixinə əsasən yaşını ekrana verin
 
 // let birthYear = prompt("Doğulduğunuz ili daxil edin:");
 // let currentYear = 2024;
@@ -26,22 +30,7 @@
 //   alert("Zəhmət olmasa düzgün bir il daxil edin.");
 // }
 
-// let birthYear = prompt("Doğulduğunuz ili daxil edin:");
-// const currentYear = 2024;
-
-// if (birthYear * 1 == birthYear) {
-//   // Tarixi check edir
-//   // 2024- 2030 // Duzgun tarixi check edir
-//   let age = currentYear - birthYear;
-
-//   if (age > 0) {
-//     alert(`Siz ${age} yaşınızdasınız.`);
-//   } else {
-//     alert("Daxil etdiyiniz il düzgün deyil!");
-//   }
-// } else {
-//   alert("Zəhmət olmasa düzgün bir il daxil edin.");
-// }
+// 3) Daxil edilən rəqəmə görə həftənin gününü ekrana verin
 
 // let dayNumber = prompt("Həftənin gününü daxil edin"); // 2
 
@@ -71,6 +60,8 @@
 //     alert("Zəhmət olmasa 1 ilə 7 arasında bir dəyər daxil edin.");
 // }
 
+// İzah && ||
+
 // && - və
 // || - və ya
 
@@ -91,6 +82,8 @@
 // }
 
 // console.log("Salam");
+
+// 4) Imtahan nəticəsinə görə tələbənin grade`ini ekrana verin
 
 // let score = prompt("İmtahandan aldığınız balı daxil edin (0-100 arasında):");
 // score = score * 1;
@@ -116,26 +109,28 @@
 //     alert("Zəhmət olmasa 0 ilə 100 arasında bir bal daxil edin.");
 // }
 
-let busNumber = prompt("Avtobus nömrəsini daxil edin (135 və ya 199):");
-let waitTime = prompt("Gözlədiyiniz vaxtı (dəqiqə) daxil edin:");
-busNumber = busNumber * 1; //135
-waitTime = waitTime * 1; //15
+// 6) İstifadəçinin nə qədər müddətdir gözlədiyini və hansı avtobusdan istifadə edəcəyini bilərək, növbəti avtobus üçün nə qədər gözləməli olduğunu ekrana verin. Avtobuslar müəyyən intervalla hərəkət edir.
 
-let bus135Interval = 20;
-let bus199Interval = 30;
+// let busNumber = prompt("Avtobus nömrəsini daxil edin (135 və ya 199):");
+// let waitTime = prompt("Gözlədiyiniz vaxtı (dəqiqə) daxil edin:");
+// busNumber = busNumber * 1; //135
+// waitTime = waitTime * 1; //15
 
-let remainingWaitTime;
+// let bus135Interval = 20;
+// let bus199Interval = 30;
 
-if (waitTime === bus135Interval && busNumber === 135) {
-  alert("Avtobus artıq gəlib!");
-} else if (waitTime === bus199Interval && busNumber === 199) {
-  alert("Avtobus artıq gəlib!");
-} else if (busNumber === 135) {
-  remainingWaitTime = bus135Interval - waitTime; // remainingWaitTime = 30 - 15 = 15
-  alert(`Növbəti avtobus ${remainingWaitTime} dəqiqədən sonra gələcək.`);
-} else if (busNumber === 199) {
-  remainingWaitTime = bus199Interval - waitTime; // remainingWaitTime = 30 - 15 = 15
-  alert(`Növbəti avtobus ${remainingWaitTime} dəqiqədən sonra gələcək.`);
-} else {
-  alert("Yanlış avtobus nömrəsi daxil etdiniz!");
-}
+// let remainingWaitTime;
+
+// if (waitTime === bus135Interval && busNumber === 135) {
+//   alert("Avtobus artıq gəlib!");
+// } else if (waitTime === bus199Interval && busNumber === 199) {
+//   alert("Avtobus artıq gəlib!");
+// } else if (busNumber === 135) {
+//   remainingWaitTime = bus135Interval - waitTime; // remainingWaitTime = 30 - 15 = 15
+//   alert(`Növbəti avtobus ${remainingWaitTime} dəqiqədən sonra gələcək.`);
+// } else if (busNumber === 199) {
+//   remainingWaitTime = bus199Interval - waitTime; // remainingWaitTime = 30 - 15 = 15
+//   alert(`Növbəti avtobus ${remainingWaitTime} dəqiqədən sonra gələcək.`);
+// } else {
+//   alert("Yanlış avtobus nömrəsi daxil etdiniz!");
+// }
