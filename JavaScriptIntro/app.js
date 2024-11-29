@@ -134,3 +134,91 @@
 // } else {
 //   alert("Yanlış avtobus nömrəsi daxil etdiniz!");
 // }
+
+// for (let i = 10; i > 0; i--) {
+//   console.log(i);
+// }
+
+// let string = "Shahin Sharifzada";
+// let counter = 0;
+
+// for (let i = 0; string[i] != undefined; i++) {
+//   counter++;
+// }
+
+// console.log(counter);
+
+// let letter = "";
+// for (let i = 65; i <= 90; i++) {
+//   letter += String.fromCharCode(i);
+// }
+// console.log(letter);
+
+// *******************************************************************
+
+// 1) Factorial of a Number
+//Write a function factorial(n) to calculate the factorial of a number.
+
+// let factorial = (reqem) => {
+//   let sum = 1;
+//   for (let i = 1; i <= reqem; i++) {
+//     sum *= i;
+//   }
+//   console.log(sum);
+// };
+
+// factorial(5);
+
+// *******************************************************************
+
+// 2) Funksiya iki parameter qəbul edir. Ad və Hərf.
+//    Hərfin indeksini tapın funksiya yazın
+// input  : gurban , u
+// output : index : 1
+
+// let getLetter = (text, letter) => {
+//   //   console.log(text, letter);
+
+//   for (let i = 0; i < text.length; i++) {
+//     // console.log(text[i]);
+
+//     if (text[i] == letter) {
+//       console.log("Bu hərf var, index : ", i + 1);
+//     }
+//   }
+// };
+
+// getLetter("Ruqeyya", "e");
+
+// *******************************************************************
+
+// 3) Check Even or Odd
+// Create a function that returns "Even" if a number is even and "Odd" if it's odd.
+
+// Input  : 2 || Output : Even
+// Input  : 3 || Output : Odd
+
+// let number = (reqem) => {
+//   //   console.log(reqem);
+
+//   if (reqem % 2 == 0) {
+//     console.log("Even");
+//   } else {
+//     console.log("Odd");
+//   }
+// };
+
+// number(21);
+// number(22);
+// number(0);
+
+// *******************************************************************
+
+// 4) Check if Number is Positive or Negative
+// Write a function that returns "Positive", "Negative", or "Zero" for a number.
+
+// Input : 1  || Output  : Positive
+// Input : 0  || Output  : Zero
+// Input : -1 || Output  : Negative
+
+// *******************************************************************
