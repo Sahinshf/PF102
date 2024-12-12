@@ -1,0 +1,120 @@
+/* General Reset */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light background for readability */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #002147; /* Dark blue background */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  margin: 50px auto;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #009990;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.euro,
+.dollar {
+  border: 2px solid #009990;
+  padding: 4px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.checkedCurrency {
+  border: 2px dashed #009990;
+  padding: 4px 8px;
+
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+}
+
+.euro:hover,
+.dollar:hover {
+  background-color: #009990;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Input Field */
+.currencyInput {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.currencyInput:focus {
+  border-color: #009990;
+}
+
+.inputValidation {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.validationForInput {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.validationForInputContainer {
+  margin-bottom: 10px;
+}
+
+.convert {
+  width: 100%;
+  background-color: #009990;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert:hover {
+  background-color: #00766e;
+}
+
+.manat {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.manatValue {
+  font-weight: bold;
+  font-size: 18px;
+}

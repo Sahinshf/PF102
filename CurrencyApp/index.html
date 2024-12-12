@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="parentContainer">
+      <div class="container">
+        <h2>Choose your currency</h2>
+
+        <div class="iconContainer">
+          <div class="dollar">$</div>
+          <div class="euro">€</div>
+        </div>
+        <div class="validationForInputContainer">
+          <span class="validationForInput"></span>
+        </div>
+
+        <input
+          type="number"
+          class="currencyInput"
+          placeholder=" Enter value..."
+        />
+        <div class="inputValidation"></div>
+
+        <button class="convert">Convert</button>
+
+        <div class="manat">Result : <span class="manatValue"></span>₼</div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
