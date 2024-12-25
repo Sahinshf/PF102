@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#gridContainer {
+  display: grid;
+  width: 320px;
+  height: 320px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  cursor: pointer;
+}
