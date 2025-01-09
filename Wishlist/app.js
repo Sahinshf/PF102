@@ -104,6 +104,55 @@ const cars = [
     model: "Wrangler Rubicon",
     year: 2017,
   },
+  {
+    id: 16,
+    color: "White",
+    brand: "Land Rover",
+    model: "Range Rover Evoque",
+    year: 2016,
+  },
+  {
+    id: 17,
+    color: "Blue",
+    brand: "Tesla",
+    model: "Model S",
+    year: 2015,
+  },
+  {
+    id: 18,
+    color: "Gray",
+    brand: "Volvo",
+    model: "S60 T5",
+    year: 2018,
+  },
+  {
+    id: 19,
+    color: "Red",
+    brand: "Jaguar",
+    model: "XE 25t",
+    year: 2017,
+  },
+  {
+    id: 20,
+    color: "Silver",
+    brand: "Porsche",
+    model: "911 Carrera",
+    year: 2016,
+  },
+  {
+    id: 21,
+    color: "Black",
+    brand: "Acura",
+    model: "TLX",
+    year: 2018,
+  },
+  {
+    id: 22,
+    color: "White",
+    brand: "Infiniti",
+    model: "Q50 3.0t",
+    year: 2017,
+  },
 ];
 const carsContainer = document.querySelector(".cars-container");
 
